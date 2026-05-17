@@ -41,11 +41,11 @@ function Footer() {
       </div>
 
       <div className="container footer-bottom">
-        <p>© 2024 Sri Sai Tours & Travels. All rights reserved.</p>
-        <div>
-          <Link to="/contact">Facebook</Link>
-          <Link to="/contact">Instagram</Link>
-          <Link to="/contact">Twitter</Link>
+        <div className="footer-bottom__meta">
+          <p>© 2024 Sri Sai Tours & Travels. All rights reserved.</p>
+          <p className="footer-credit">
+            <span>Designed by</span> <strong>Devloft Technologies</strong>
+          </p>
         </div>
       </div>
     </footer>

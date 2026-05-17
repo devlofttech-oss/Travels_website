@@ -41,7 +41,7 @@ function Header({ activePage = 'Home', loading = false }) {
         </div>
 
         <div className="nav__actions">
-          <a className="icon-button" href={contactInfo.whatsappHref} aria-label="Chat with us">
+          <a className="icon-button nav__whatsapp" href={contactInfo.whatsappHref} aria-label="Chat with us">
             <Icon name="MessageCircle" size={20} />
           </a>
           <Button href={contactInfo.whatsappHref} className="nav__cta">
