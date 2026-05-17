@@ -519,10 +519,17 @@
     padding-top: 18px;
   }
 
+  .hero-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
   .hero-shell {
+    width: min(100%, 390px);
     min-height: auto;
-    aspect-ratio: 3 / 2;
-    border-radius: var(--radius-2xl);
+    height: min(72vh, 680px);
+    aspect-ratio: 9 / 14;
+    border-radius: 32px;
     align-items: flex-end;
   }
 
@@ -541,10 +548,7 @@
   }
 
   .hero-content h1 {
-    max-width: 360px;
-    margin-bottom: 14px;
-    font-size: clamp(24px, 7vw, 34px);
-    line-height: 1.08;
+    display: none;
   }
 
   .hero-actions {
@@ -579,7 +583,9 @@
 
 @media (max-width: 520px) {
   .hero-shell {
-    aspect-ratio: 3 / 2;
+    width: min(100%, 386px);
+    height: min(74vh, 640px);
+    min-height: 560px;
   }
 
   .hero-shell__overlay {

@@ -86,11 +86,11 @@
   gap: 12px;
 }
 
-.nav__cta {
+.nav__actions .nav__cta {
   display: none;
 }
 
-.nav__whatsapp {
+.nav__actions .nav__whatsapp {
   display: none;
 }
 
@@ -442,14 +442,17 @@
 
 @media (min-width: 768px) {
   .nav__links,
-  .nav__whatsapp,
   .nav__cta,
   .section-controls {
     display: flex;
   }
 
-  .nav__whatsapp {
+  .nav__actions .nav__whatsapp {
     display: inline-grid;
+  }
+
+  .nav__actions .nav__cta {
+    display: flex;
   }
 
   .nav__menu {
