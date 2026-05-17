@@ -537,6 +537,10 @@
     background: linear-gradient(180deg, rgba(21, 27, 41, 0.1) 0%, rgba(21, 27, 41, 0.44) 100%);
   }
 
+  .hero-shell__image {
+    object-position: 34% center;
+  }
+
   .hero-content {
     position: absolute;
     inset: 0;
@@ -616,6 +620,10 @@
 
   .hero-shell__overlay {
     background: linear-gradient(180deg, rgba(21, 27, 41, 0.08) 0%, rgba(21, 27, 41, 0.42) 100%);
+  }
+
+  .hero-shell__image {
+    object-position: 34% center;
   }
 
   .hero-content {
