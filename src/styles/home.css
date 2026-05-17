@@ -538,7 +538,7 @@
   }
 
   .hero-shell__image {
-    object-position: 34% center;
+    object-position: 40% center;
   }
 
   .hero-content {
@@ -547,25 +547,26 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
     max-width: none;
-    padding: 18px;
+    padding: clamp(82px, 18vh, 132px) 24px 24px;
     text-align: left;
   }
 
   .hero-content .eyebrow {
-    display: none;
+    display: block;
+    margin-bottom: 18px;
+    font-size: 12px;
+    letter-spacing: 0.08em;
   }
 
   .hero-content h1 {
-    position: absolute;
-    top: 34px;
-    left: 24px;
+    position: static;
     display: block;
-    width: min(100% - 48px, 340px);
-    margin: 0;
-    font-size: clamp(28px, 7.2vw, 36px);
+    width: min(100%, 360px);
+    margin: 0 0 26px;
+    font-size: clamp(44px, 13vw, 60px);
     line-height: 1.08;
     text-shadow: 0 3px 16px rgba(0, 0, 0, 0.32);
   }
@@ -623,18 +624,17 @@
   }
 
   .hero-shell__image {
-    object-position: 34% center;
+    object-position: 40% center;
   }
 
   .hero-content {
-    padding: 14px;
+    padding: clamp(72px, 16vh, 112px) 20px 20px;
   }
 
   .hero-content h1 {
-    top: 28px;
-    left: 20px;
-    width: min(100% - 40px, 330px);
-    font-size: clamp(21px, 6.2vw, 27px);
+    width: min(100%, 330px);
+    margin-bottom: 22px;
+    font-size: clamp(39px, 12vw, 52px);
   }
 
   .hero-actions {
