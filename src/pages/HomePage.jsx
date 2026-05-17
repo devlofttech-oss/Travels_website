@@ -78,7 +78,12 @@ function HeroSection() {
               <Button href="/packages" icon="ArrowRight" iconPosition="right">
                 View Packages
               </Button>
-              <Button href={contactInfo.whatsappHref} variant="glass" icon="MessageCircle">
+              <Button
+                className="hero-whatsapp"
+                href={contactInfo.whatsappHref}
+                variant="glass"
+                icon="MessageCircle"
+              >
                 WhatsApp Us
               </Button>
             </div>
@@ -136,6 +141,12 @@ function FeaturedPackages({ loading }) {
           {loading
             ? [0, 1, 2].map((item) => <CardSkeleton key={item} />)
             : packages.map((item) => <PackageCard key={item.title} {...item} />)}
+        </div>
+
+        <div className="section-action">
+          <Button href="/packages" variant="outline">
+            View All Packages
+          </Button>
         </div>
       </div>
     </section>

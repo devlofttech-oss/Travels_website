@@ -476,8 +476,9 @@
 @media (max-width: 520px) {
   .nav__brand,
   .footer-logo {
-    max-width: 190px;
-    font-size: 20px;
+    max-width: none;
+    font-size: clamp(19px, 5.1vw, 22px);
+    white-space: nowrap;
   }
 
   .nav,
