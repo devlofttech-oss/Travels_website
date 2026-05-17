@@ -555,10 +555,7 @@
   }
 
   .hero-content .eyebrow {
-    display: block;
-    margin-bottom: 18px;
-    font-size: 12px;
-    letter-spacing: 0.08em;
+    display: none;
   }
 
   .hero-content h1 {
@@ -582,6 +579,15 @@
     min-height: 42px;
     padding: 10px 12px;
     font-size: 13px;
+    color: var(--color-white);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    box-shadow: none;
+    backdrop-filter: blur(12px);
+  }
+
+  .hero-actions .btn:hover {
+    background: rgba(255, 255, 255, 0.18);
   }
 
   .hero-actions .btn svg {
@@ -590,13 +596,13 @@
   }
 
   .hero-actions .hero-whatsapp {
-    background: #25d366;
-    border-color: #25d366;
-    box-shadow: 0 12px 28px rgba(37, 211, 102, 0.28);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.55);
+    box-shadow: none;
   }
 
   .hero-actions .hero-whatsapp:hover {
-    background: #1ebe5d;
+    background: rgba(255, 255, 255, 0.18);
   }
 
   .section-heading--split {
