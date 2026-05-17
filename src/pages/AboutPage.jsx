@@ -67,7 +67,7 @@ function AboutCompanySection({ loading }) {
         ) : (
           <div className="about-company">
             <div className="about-company__media">
-              <img src={companyImage} alt="Sri Sai Tours travel guide assisting tourists." />
+              <img src={companyImage} alt="Comfortable Sri Sai Tours vehicle interior." loading="lazy" />
             </div>
             <div className="about-company__copy">
               <h2 id="company-title">Pioneering Premium Exploration Since 2012</h2>

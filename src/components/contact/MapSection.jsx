@@ -21,7 +21,7 @@ function MapSection() {
       </div>
 
       <a className="contact-map-visual" href={contactInfo.mapsHref} aria-label="Open Google Maps directions">
-        <img src={mapImage} alt="Minimal illustrated map for Sri Sai Tours office directions." />
+        <img src={mapImage} alt="Sri Sai Tours fleet image for office directions." loading="lazy" />
         <div className="contact-map-badge">
           <span aria-hidden="true" />
           <strong>Sri Sai Tours HQ</strong>

@@ -92,7 +92,7 @@ function TravelExperienceSection({ loading }) {
         ) : (
           <div className="travel-experience">
             <div className="travel-experience__media">
-              <img src={travelExperience.image} alt="Traveler sitting on a dock beside a serene lake." />
+              <img src={travelExperience.image} alt="Luxury travel interior comfort." loading="lazy" />
             </div>
             <div className="travel-experience__copy">
               <p className="eyebrow eyebrow--blue">{travelExperience.eyebrow}</p>

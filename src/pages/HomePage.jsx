@@ -207,7 +207,7 @@ function AboutPreview({ loading }) {
         ) : (
           <div className="about-layout">
             <div className="about-media">
-              <img src={aboutImage} alt="Smiling Indian travel guide with tourists." />
+              <img src={aboutImage} alt="Sri Sai Tours premium travel coach." loading="lazy" />
               <div className="experience-badge">
                 <strong>15+</strong>
                 <span>Years of Excellence</span>
