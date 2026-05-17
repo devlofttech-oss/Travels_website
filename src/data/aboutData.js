@@ -7,22 +7,6 @@ export const aboutHero = {
   alt: 'Aerial view of misty Munnar tea plantations at sunrise.',
 };
 
-export const companyImage =
-  'https://lh3.googleusercontent.com/aida-public/AB6AXuAB3ZxFLDedL-8oU3gMeE0kHW3RN5s6H_Rj67z_DtPD5IDMoL-P0sOeicc_ythEvrAYriu6cRwaRGM7SV0TP6Ja2Lju8gL9gBOvq_rNjyZTsx2iTBx4w6Lh_ZewkxGPiFXYSoXVztMzoCYI6A6eXOjuQ23bBpnBL3kQTJ1iP24ppIC20RlDOPNbmLaFXEEspJTyc0AqXh3IlFmyxBhs5a_mRA8K_rLHbRnvYVLq8bDu0Lmh3tWn5ygzWpoN2gMNGAEfwRTQbibpJ81Y';
-
-export const companyHighlights = [
-  {
-    icon: 'ShieldCheck',
-    title: 'Licensed',
-    text: 'Government Approved Agent',
-  },
-  {
-    icon: 'Stars',
-    title: 'Quality',
-    text: 'Award Winning Service',
-  },
-];
-
 export const missionVision = [
   {
     icon: 'Rocket',
@@ -54,11 +38,4 @@ export const aboutReasons = [
     title: 'Friendly Support',
     text: 'Our dedicated travel experts are available 24/7 to assist with bookings, itinerary changes, or on-road support.',
   },
-];
-
-export const stats = [
-  { value: '1000+', label: 'Happy Travelers' },
-  { value: '50+', label: 'Destinations' },
-  { value: '120+', label: 'Premium Vehicles' },
-  { value: '24/7', label: 'Expert Support' },
 ];

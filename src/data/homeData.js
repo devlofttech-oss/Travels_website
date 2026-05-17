@@ -2,21 +2,6 @@ import { localImages } from './localImages.js';
 
 export const heroImage = localImages.slider;
 
-export const floatingHighlights = [
-  {
-    icon: 'Stars',
-    title: 'Premium Fleet',
-    text: 'Comfortable SUVs & Sedans',
-    tone: 'primary',
-  },
-  {
-    icon: 'Compass',
-    title: 'Expert Drivers',
-    text: 'Fluent in Local Knowledge',
-    tone: 'tertiary',
-  },
-];
-
 export const trustItems = [
   { icon: 'Armchair', label: 'Comfortable Travel' },
   { icon: 'ShieldCheck', label: 'Trusted Service' },

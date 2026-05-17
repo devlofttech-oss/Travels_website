@@ -5,21 +5,18 @@ import HeroBanner from '../components/common/HeroBanner.jsx';
 import CTASection from '../components/common/CTASection.jsx';
 import GalleryFilter from '../components/gallery/GalleryFilter.jsx';
 import MasonryGallery from '../components/gallery/MasonryGallery.jsx';
-import StatsCard from '../components/about/StatsCard.jsx';
 import Icon from '../components/Icon.jsx';
 import {
   CtaSkeleton,
   GalleryFilterSkeleton,
   MasonryGallerySkeleton,
   PageHeroSkeleton,
-  StatsSkeleton,
   TravelExperienceSkeleton,
 } from '../components/ui/Skeleton.jsx';
 import {
   galleryCategories,
   galleryHero,
   galleryItems,
-  galleryStats,
   travelExperience,
 } from '../data/galleryData.js';
 
@@ -65,7 +62,6 @@ function GalleryPage() {
           </div>
         </section>
         <TravelExperienceSection loading={loading} />
-        <StatsSection loading={loading} />
         {loading ? (
           <CtaSkeleton />
         ) : (
@@ -107,24 +103,6 @@ function TravelExperienceSection({ loading }) {
                 ))}
               </ul>
             </div>
-          </div>
-        )}
-      </div>
-    </section>
-  );
-}
-
-function StatsSection({ loading }) {
-  return (
-    <section className="gallery-stats-section" aria-label="Sri Sai Tours gallery highlights">
-      <div className="container">
-        {loading ? (
-          <StatsSkeleton />
-        ) : (
-          <div className="stats-grid stats-grid--gallery">
-            {galleryStats.map((item) => (
-              <StatsCard key={item.label} {...item} />
-            ))}
           </div>
         )}
       </div>

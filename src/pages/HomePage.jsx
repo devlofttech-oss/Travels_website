@@ -3,7 +3,6 @@ import Header from '../components/layout/Header.jsx';
 import Footer from '../components/layout/Footer.jsx';
 import Button from '../components/ui/Button.jsx';
 import Icon from '../components/Icon.jsx';
-import FloatingCard from '../components/home/FloatingCard.jsx';
 import PackageCard from '../components/home/PackageCard.jsx';
 import GalleryItem from '../components/home/GalleryItem.jsx';
 import FeatureCard from '../components/home/FeatureCard.jsx';
@@ -18,7 +17,6 @@ import {
 import {
   aboutImage,
   features,
-  floatingHighlights,
   galleryImages,
   heroImage,
   packages,
@@ -87,11 +85,6 @@ function HeroSection() {
           </div>
         </div>
 
-        <div className="floating-cards">
-          {floatingHighlights.map((card) => (
-            <FloatingCard key={card.title} {...card} />
-          ))}
-        </div>
       </div>
     </section>
   );

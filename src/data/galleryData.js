@@ -96,10 +96,3 @@ export const travelExperience = {
     { icon: 'ShieldUser', text: 'Safety and comfort prioritized' },
   ],
 };
-
-export const galleryStats = [
-  { value: '15k+', label: 'Happy Travelers' },
-  { value: '120+', label: 'Destinations' },
-  { value: '98%', label: 'Comfort Rating' },
-  { value: '10yr+', label: 'Trusted Service' },
-];
