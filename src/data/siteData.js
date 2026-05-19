@@ -38,10 +38,10 @@ export const footerGroups = [
   {
     title: 'Destinations',
     links: [
-      { label: 'Kerala', href: '/packages' },
-      { label: 'Karnataka', href: '/packages' },
-      { label: 'Tamil Nadu', href: '/packages' },
-      { label: 'Goa', href: '/packages' },
+      { label: 'Mysore to Wayanad', href: '/packages' },
+      { label: 'Bangalore to Mysore', href: '/packages' },
+      { label: 'Mysore to Ooty', href: '/packages' },
+      { label: 'Mysore to Coorg', href: '/packages' },
     ],
   },
   {

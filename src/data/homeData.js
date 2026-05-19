@@ -9,32 +9,77 @@ export const trustItems = [
   { icon: 'MapPinned', label: 'Experienced Drivers' },
 ];
 
+export const packageImages = {
+  coorg: localImages.coorg,
+  coorg2: localImages.coorg2,
+  mysore: localImages.mysore,
+  mysore2: localImages.mysore2,
+  ooty: localImages.ooty,
+  tirupati: localImages.tirupati,
+  wayanad: localImages.wayanad,
+  wayanad2: localImages.wayanad2,
+};
+
 export const packages = [
   {
-    title: 'Royal Heritage Tour',
-    duration: '4 Days / 3 Nights',
-    price: '₹14,999/-',
-    description:
-      'Explore the majestic palaces and vibrant culture of the historical South Indian dynasties with curated stays.',
-    image: localImages.bus,
+    title: 'Mysore to Wayanad',
+    duration: '1 DAY TOUR',
+    price: '₹6,200.00',
+    description: 'A one-day taxi tour from Mysore to the green hills and scenic viewpoints of Wayanad.',
+    image: packageImages.wayanad,
   },
   {
-    title: 'Kerala Backwaters',
-    duration: '5 Days / 4 Nights',
-    price: '₹18,500/-',
-    description:
-      "Experience serenity on a houseboat through the emerald backwaters and palm-fringed canals of God's Own Country.",
-    image: localImages.room1,
+    title: 'Bangalore to Mysore',
+    duration: 'DAY SIGHTSEEING',
+    price: '₹5,700.00',
+    description: 'A quick sightseeing trip from Bangalore to Mysore for palace visits and city highlights.',
+    image: packageImages.mysore,
   },
   {
-    title: 'Misty Hills Escape',
-    duration: '3 Days / 2 Nights',
-    price: '₹9,999/-',
-    description:
-      'A refreshing getaway to the cloud-kissed peaks of Ooty and Coonoor, perfect for families and couples.',
-    image: localImages.car,
+    title: 'Mysore to Ooty',
+    duration: 'SAME DAY PACKAGE',
+    price: '₹5,700.00',
+    description: 'A same-day hill station drive from Mysore to Ooty with cool views and relaxed stops.',
+    image: packageImages.ooty,
+  },
+  {
+    title: 'Mysore to Coorg',
+    duration: 'SINGLE DAY TRIP',
+    price: '₹4,700.00',
+    description: 'A single-day Mysore to Coorg trip covering coffee country, viewpoints, and local charm.',
+    image: packageImages.coorg,
+  },
+  {
+    title: 'Mysore-Coorg-Wayanad',
+    duration: '4 DAYS - 3 NIGHTS',
+    price: '₹19,000.00',
+    description: 'A 4-day route through Mysore, Coorg, and Wayanad with hills, forests, and waterfalls.',
+    image: packageImages.wayanad2,
+  },
+  {
+    title: 'Mysore City Tour',
+    duration: 'CITY DAY TOUR',
+    price: '₹3,000.00',
+    description: 'A city day tour covering Mysore Palace, landmarks, markets, and heritage spots.',
+    image: packageImages.mysore2,
+  },
+  {
+    title: 'Mysore-Ooty-Coorg',
+    duration: '4 DAYS - 3 NIGHTS',
+    price: '₹18,000.00',
+    description: 'A 4-day journey through Mysore, Ooty, and Coorg with palaces, hills, and coffee estates.',
+    image: packageImages.coorg2,
+  },
+  {
+    title: 'Mysore to Tirupati',
+    duration: '2 DAYS - 1 NIGHTS',
+    price: '₹15,000.00',
+    description: 'A 2-day Mysore to Tirupati temple package planned for a comfortable darshan trip.',
+    image: packageImages.tirupati,
   },
 ];
+
+export const featuredPackages = packages.slice(0, 3);
 
 export const galleryImages = [
   {

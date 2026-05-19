@@ -17,9 +17,9 @@ import {
 import {
   aboutImage,
   features,
+  featuredPackages,
   galleryImages,
   heroImage,
-  packages,
   trustItems,
 } from '../data/homeData.js';
 import { contactInfo } from '../data/siteData.js';
@@ -140,7 +140,7 @@ function FeaturedPackages({ loading }) {
         <div className="package-grid" ref={gridRef}>
           {loading
             ? [0, 1, 2].map((item) => <CardSkeleton key={item} />)
-            : packages.map((item) => <PackageCard key={item.title} {...item} />)}
+            : featuredPackages.map((item) => <PackageCard key={item.title} {...item} />)}
         </div>
 
         <div className="section-action">

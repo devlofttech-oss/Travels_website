@@ -44,7 +44,10 @@ function Footer() {
         <div className="footer-bottom__meta">
           <p>© 2024 Sri Sai Tours & Travels. All rights reserved.</p>
           <p className="footer-credit">
-            <span>Designed by</span> <strong>Devloft Technologies</strong>
+            <span>Designed & Developed by</span>{' '}
+            <a href="https://www.devlofttech.com/" target="_blank" rel="noreferrer">
+              <strong>Devloft Technologies</strong>
+            </a>
           </p>
         </div>
       </div>
